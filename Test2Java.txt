@@ -1,0 +1,93 @@
+1. Отметьте логические операторы в Java?
+==
+&& 
+!
+
+2. Что будет напечатано этим методом?
+public void print() {
+        int number = 2;
+        int res = number + -2;
+        System.out.println(res);
+    }
+
+0
+
+
+3. Объясните возвращаемый тип данных void в Java:
+
+void используется, когда вы не хотите, чтобы ваша функция что-либо возвращала.
+
+
+4. Какие из следующих ключевых слов, являются ключевыми словами Java?
+return
+void
+private
+
+5. Первый индекс в массиве:
+
+0
+
+6. Что из следующего, может получить количество элементов в одномерном массиве?
+
+array.length 
+
+
+7. Какое из следующих выражений НЕверно?
+
+int num = '7';
+
+
+8. Выберите вывод этой программы:
+public class Test {
+    public static void main(String[] args) {
+        String str = null;
+        System.out.println(str);
+    }
+}
+
+null
+
+
+9. Выберите вывод этой программы:
+public class Test {
+    public static void main(String[] args) {
+        int i = 0;
+        while(1) {
+            if(i == 4) {
+                break;
+            }
+            ++i;
+        }
+        System.out.println("i = " + i);
+    }
+}
+
+
+10. Выберите вывод этой программы:
+public class Test {
+    public static void main(String[] args) {
+        int i = 1;
+        int j = 10;
+        do {
+            if (i++ > --j) {
+                continue;
+            }
+        } while (i < 5);
+        System.out.println("i = " + i + " and j = " + j);
+    }
+}
+
+11. Размер массива можно объявить отрицательным?
+
+нельзя
+
+12. Каково значение элемента в массиве по умолчанию?
+
+Если массив имеет тип byte, short, int и long, значение по умолчанию равно 0.
+
+13. Такая инициализация приведет к …
+int y = 56;
+int[] number = {12, 34, 90, y, 65};
+
+14. Какой максимальный размер можно объявить для одномерного массива?
+
